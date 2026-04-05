@@ -6,7 +6,7 @@
   },
   // GPU passthrough for NVIDIA GPUs (Windows/Linux).
   // Comment out if you're on Mac or have no NVIDIA GPU.
-  "runArgs": ["--gpus", "all"],
+  // "runArgs": ["--gpus", "all"],
   "workspaceFolder": "/workspace/turtlebot3_ws",
   "workspaceMount": "source=${localWorkspaceFolder},target=/workspace/turtlebot3_ws,type=bind,consistency=cached",
   "mounts": [
